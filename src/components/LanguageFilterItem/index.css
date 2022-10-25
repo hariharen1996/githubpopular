@@ -1,0 +1,20 @@
+/* Write your CSS here */
+.language-items {
+  list-style: none;
+}
+.language-btn {
+  padding: 5px 10px;
+  border-radius: 15px;
+  background: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.change-style {
+  border: 1px solid #0284c7;
+  color: #0284c7;
+}
+.no-change-style {
+  color: #0f172a;
+  border: none;
+}

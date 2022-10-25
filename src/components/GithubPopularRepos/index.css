@@ -1,0 +1,70 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.heading {
+  font-family: 'Lobster';
+  font-size: 30px;
+  color: #0f172a;
+}
+
+.language-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.repo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.failure-text {
+  color: #1e293b;
+  font-weight: 500;
+  font-size: 23px;
+  font-family: 'Lobster';
+}
+
+.failure-img {
+  width: 140px;
+}
+
+@media screen and (max-width: 768px) {
+  .repo-container {
+    margin-right: 30px;
+  }
+  .failure-img {
+    width: 100px;
+  }
+  .failure-text {
+    font-size: 17px;
+  }
+}
